@@ -1,0 +1,59 @@
+.header-wrapper {
+  width: 100%;
+  height: 90px;
+}
+.header-wrapper .header-box {
+  background-color: transparent;
+  background: #00a0e9;
+  color: white;
+  width: 960px;
+  height: 90px;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 99999;
+  position: relative;
+}
+.header-wrapper .header-box .logo {
+  height: 90px;
+  line-height: 90px;
+  float: left;
+}
+.header-wrapper .header-box .logo a {
+  vertical-align: middle;
+}
+.header-wrapper .header-box .logo a img {
+  width: 118px;
+  height: 58px;
+  object-position: center center;
+  object-fit: cover;
+}
+.header-wrapper .header-box .nav-menu {
+  display: block;
+  margin-left: 320px;
+  float: left;
+  position: relative;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.header-wrapper .header-box .nav-menu .nav-left {
+  float: left;
+  position: relative;
+  padding: 0 15px;
+  box-sizing: border-box;
+  height: 90px;
+  line-height: 90px;
+}
+.header-wrapper .header-box .nav-menu .nav-left a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
