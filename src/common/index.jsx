@@ -4,7 +4,7 @@ import imgLogo from "../statics/logo2.png";
 
 const Header = () => {
   return (
-    <div className="header-wrapper">
+    <div className="header-wrapper clearfix">
       <div className="logo-wrapper">
         <img src={imgLogo} alt="logo" />
       </div>

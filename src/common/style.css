@@ -1,13 +1,24 @@
+.header-wrapper {
+  border: 1px solid #e0e0e0;
+  background-color: transparent;
+  z-index: 999;
+}
+.header-wrapper .logo-wrapper {
+  border: 1px solid red;
+  display: inline-block;
+}
 .header-wrapper .logo-wrapper img {
+  border: 1px solid aqua;
   object-position: center center;
   object-fit: cover;
   width: 100px;
-  float: left;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 .header-wrapper .nav-wrapper {
   margin: 10px;
-  margin-left: 200px;
+  margin-right: 600px;
+  border: 1px solid greenyellow;
+  float: right;
 }
 .header-wrapper .nav-wrapper ul li {
   display: inline;
@@ -15,4 +26,9 @@
   margin: 20px;
   line-height: 20px;
   font-size: 20px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
