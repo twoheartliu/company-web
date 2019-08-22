@@ -9,8 +9,14 @@ const Sliders = () => {
         <div>
           <img src={imgSlider1} alt="" />
         </div>
-
         <div>
+          <img src={imgSlider1} alt="" />
+        </div>
+        <div>
+          <img src={imgSlider1} alt="" />
+        </div>
+
+        {/* <div>
           <h3>2</h3>
         </div>
         <div>
@@ -18,7 +24,7 @@ const Sliders = () => {
         </div>
         <div>
           <h3>4</h3>
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );

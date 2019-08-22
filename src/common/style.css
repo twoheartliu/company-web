@@ -1,34 +1,49 @@
-.header-wrapper {
-  border: 1px solid #e0e0e0;
-  background-color: transparent;
-  z-index: 999;
-}
-.header-wrapper .logo-wrapper {
-  border: 1px solid red;
-  display: inline-block;
-}
-.header-wrapper .logo-wrapper img {
-  border: 1px solid aqua;
-  object-position: center center;
-  object-fit: cover;
-  width: 100px;
-  margin-left: 60px;
-}
-.header-wrapper .nav-wrapper {
-  margin: 10px;
-  margin-right: 600px;
-  border: 1px solid greenyellow;
-  float: right;
-}
-.header-wrapper .nav-wrapper ul li {
-  display: inline;
-  padding: 20px;
-  margin: 20px;
-  line-height: 20px;
-  font-size: 20px;
-}
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.header-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+.header {
+  width: 960px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  height: 90px;
+  float: left;
+}
+.logo > a {
+  display: block;
+  height: 100%;
+}
+.logo > a img {
+  height: 100%;
+  vertical-align: top;
+}
+.header > nav {
+  float: left;
+  line-height: 90px;
+  margin-left: 100px;
+}
+.header > nav > a {
+  display: inlin-block;
+  color: #fff;
+  font-size: 14px;
+}
+.header > nav > a + a {
+  margin-left: 15px;
 }

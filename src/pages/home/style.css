@@ -1,5 +1,10 @@
-.home {
-  width: 960px;
-  /* border: 1px solid red; */
-  margin: 0 auto;
+.home .banner {
+  width: 200px;
+  border: 1px solid red;
+}
+.home .banner img {
+  width: 100vw;
+  height: 450px;
+  object-position: center center;
+  object-fit: cover;
 }
